@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves_array)# code an argument here
   # Your code here
   counter = 0
-  dwarves_array.size.times {puts "#{counter+=1}.#{dwarves_array.unshift}"}
+  #dwarves_array.size.times {puts "#{counter+=1}.#{dwarves_array.unshift}"}
   
   #dwarves_array.each_with_index 
   dwarves_array.each_with_index do |el, index|
