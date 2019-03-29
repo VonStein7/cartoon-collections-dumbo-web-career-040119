@@ -11,11 +11,11 @@ end
 
 def summon_captain_planet(captain_arr)# code an argument here
   # Your code here
-  captain_arr.collection do |e|
-    e[0].upcase() 
+  new_arr = captain_arr.collect do |e|
+    e[0].upcase() + "!" 
   end
   
-  captain_arr
+  new_arr
 end
 
 def long_planeteer_calls# code an argument here
