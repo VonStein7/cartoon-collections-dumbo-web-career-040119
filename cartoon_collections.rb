@@ -9,8 +9,7 @@ def roll_call_dwarves(dwarves_array)# code an argument here
   end
 end
 
-def summon_captain_planet(captain_arr)# code an argument here
-  # Your code here
+def summon_captain_planet(captain_arr)
   new_arr = []
   
   captain_arr.collect do |e|
@@ -22,8 +21,14 @@ def summon_captain_planet(captain_arr)# code an argument here
   new_arr
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr)
+  arr.each do |item|
+    if item.length > 4
+      return true 
+    end
+  end
+  
+  false 
 end
 
 def find_the_cheese# code an argument here
