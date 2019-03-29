@@ -12,8 +12,9 @@ end
 def summon_captain_planet(captain_arr)# code an argument here
   # Your code here
   new_arr = captain_arr.collect do |e|
-    str_arr = e.split("").first.upcase
-    str_arr.join("")+"!"
+    str_arr = e.split("")
+    str_arr.first.upcase()
+    puts str_arr
   end
   
   new_arr
