@@ -12,8 +12,10 @@ end
 def summon_captain_planet(captain_arr)# code an argument here
   # Your code here
   captain_arr.collection do |e|
-    e.to_upcase() 
+    e[0].upcase() 
   end
+  
+  captain_arr
 end
 
 def long_planeteer_calls# code an argument here
