@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(dwarves_array)# code an argument here
   # Your code here
+  counter = 0
+  dwarves_array.size.times {puts "#{counter+=1}.#{dwarves_array.unshift}"}
+  
+  #dwarves_array.each_with_index 
 end
 
 def summon_captain_planet# code an argument here
