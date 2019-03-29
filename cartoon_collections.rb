@@ -15,7 +15,7 @@ def summon_captain_planet(captain_arr)# code an argument here
     str_arr = e.split("")
     str_arr.first.upcase()
     str_arr.join()
-    puts str_arr + "   " + e 
+    puts e 
   end
   
   new_arr
