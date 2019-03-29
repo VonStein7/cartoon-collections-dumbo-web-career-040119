@@ -9,8 +9,11 @@ def roll_call_dwarves(dwarves_array)# code an argument here
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(captain_arr)# code an argument here
   # Your code here
+  captain_arr.collection do |e|
+    e.to_upcase() 
+  end
 end
 
 def long_planeteer_calls# code an argument here
